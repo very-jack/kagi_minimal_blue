@@ -10,14 +10,15 @@ In Kagi, click on the Settings icon in the top-right corner, go to Appearance, t
     --border-color: #f3f4f7;
     --highlight-color: #98c1d9;
   }
-​
+
 .theme_light {
     --title-color: #293241;
     --text-color: #475671;
     --after-color: #A9AAAE;   
-    --other-color: #ffff;
+    --other-color: #ffffff;
     --primary:#475671;
     --primary-hover:#98c1d9;
+    --search-result-content-text:#475671;
      }
   
   .theme_dark, .theme_moon_dark {
@@ -25,6 +26,7 @@ In Kagi, click on the Settings icon in the top-right corner, go to Appearance, t
     --text-color: #ffffff;
     --after-color: #475671;
     --other-color: #475671;
+    --search-result-content-text: #ffffff;
     --image_brightness: 85%; }
   
   
@@ -48,7 +50,7 @@ In Kagi, click on the Settings icon in the top-right corner, go to Appearance, t
   a.__sri_title_link._ext_t._0_sri_title_link._0_URL:visited:hover {
     color: var(--highlight-color);  /* 点击后的颜色 */
   }
-​
+
   a._0_URL {
     color: var(--title-color);
     border-bottom: 0px solid var(--highlight-color);
@@ -215,14 +217,14 @@ In Kagi, click on the Settings icon in the top-right corner, go to Appearance, t
 .quick-search-btn svg {
   color: var(--other-color);
 }
-​
+
 .quick-search-btn{
   background:var(--highlight-color);
   backgroud-color:var(--highlight-color);
 }
   
 /* mobile buttons */
-​
+
 .mob .landing-category-select .landing_cat_buttons > button.--active {
   border: 1px solid var(--highlight-color);
   background-color: var(--highlight-color); 

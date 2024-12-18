@@ -222,6 +222,10 @@ In Kagi, click on the `Settings` icon in the top-right corner, go to `Appearance
   background:var(--highlight-color);
   backgroud-color:var(--highlight-color);
 }
+
+div.__sri-url-box {
+  margin-bottom: 5px;
+}
   
 /* mobile buttons */
 

@@ -215,6 +215,10 @@
   background:var(--highlight-color);
   backgroud-color:var(--highlight-color);
 }
+
+div.__sri-url-box {
+  margin-bottom: 5px;
+}
   
 /* mobile buttons */
 
